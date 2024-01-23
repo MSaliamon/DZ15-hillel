@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 
 
 function HtmlTask() {
-    return src('./src/*.html').pipe(fileInclude({
+    return src('src/*.html').pipe(fileInclude({
         prefix: '@@'
     }))
     .pipe(dest('dist'));
