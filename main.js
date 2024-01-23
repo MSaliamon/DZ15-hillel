@@ -25,3 +25,4 @@ fetch('http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=
       .catch(error => {
         console.error('Помилка при отриманні погоди:', error);
       });
+      
